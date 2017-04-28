@@ -22,7 +22,6 @@ export default class HashTable {
 
   contains(key) {
     let hashedKey = this.hash(key)
-    console.log('yolo', this.hash('two'));
     return this.container[hashedKey].containsNode(key)
   }
 
