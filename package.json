@@ -1,0 +1,31 @@
+{
+  "name": "157-data-structures-advanced",
+  "version": "1.0.0",
+  "description": "Hashtable(using a LinkedList for collision chaining), Binary Search Tree, and Directed Graph",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "mocha --compilers js:babel-register ./tests/hashTable_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zezevazquez/157-data-structures-advanced.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zezevazquez/157-data-structures-advanced/issues"
+  },
+  "homepage": "https://github.com/zezevazquez/157-data-structures-advanced#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-change": "^2.1.2",
+    "mocha": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-register": "^6.24.1"
+  }
+}
